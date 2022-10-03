@@ -7,6 +7,15 @@
 
 import Foundation
 import UIKit
-class profileViewController: UIViewController {
-    
-}
+    class ViewController: UIViewController {
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            let n = Bundle.main.loadNibNamed("ProfileView", owner: self)![0] as! ProfileView
+            view.addSubview(n)
+            
+        }
+
+
+    }
+
