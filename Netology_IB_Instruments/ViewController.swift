@@ -6,16 +6,3 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let nw = Bundle.main.loadNibNamed("newView", owner: self)![0] as! newView
-        view.addSubview(nw)
-        // Do any additional setup after loading the view.
-    }
-
-
-}
-

@@ -13,8 +13,8 @@
 		A7B29F9328E44AA700EADB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B29F9128E44AA700EADB66 /* Main.storyboard */; };
 		A7B29F9528E44AA800EADB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B29F9428E44AA800EADB66 /* Assets.xcassets */; };
 		A7B29F9828E44AA800EADB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B29F9628E44AA800EADB66 /* LaunchScreen.storyboard */; };
-		A7B29FA028E44AB800EADB66 /* newView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B29F9F28E44AB800EADB66 /* newView.xib */; };
-		A7B29FA228E44ACC00EADB66 /* newView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B29FA128E44ACC00EADB66 /* newView.swift */; };
+		A7B29FA028E44AB800EADB66 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B29F9F28E44AB800EADB66 /* ProfileView.xib */; };
+		A7B29FA228E44ACC00EADB66 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B29FA128E44ACC00EADB66 /* ProfileView.swift */; };
 		A7B29FA428E4BD2F00EADB66 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B29FA328E4BD2F00EADB66 /* Profile.storyboard */; };
 		A7B29FA628E4BDD600EADB66 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B29FA528E4BDD600EADB66 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,8 +28,8 @@
 		A7B29F9428E44AA800EADB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7B29F9728E44AA800EADB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7B29F9928E44AA800EADB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7B29F9F28E44AB800EADB66 /* newView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newView.xib; sourceTree = "<group>"; };
-		A7B29FA128E44ACC00EADB66 /* newView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newView.swift; sourceTree = "<group>"; };
+		A7B29F9F28E44AB800EADB66 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		A7B29FA128E44ACC00EADB66 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A7B29FA328E4BD2F00EADB66 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		A7B29FA528E4BDD600EADB66 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,10 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				A7B29F8B28E44AA700EADB66 /* AppDelegate.swift */,
-				A7B29F9F28E44AB800EADB66 /* newView.xib */,
+				A7B29F9F28E44AB800EADB66 /* ProfileView.xib */,
 				A7B29FA328E4BD2F00EADB66 /* Profile.storyboard */,
 				A7B29FA528E4BDD600EADB66 /* ProfileViewController.swift */,
-				A7B29FA128E44ACC00EADB66 /* newView.swift */,
+				A7B29FA128E44ACC00EADB66 /* ProfileView.swift */,
 				A7B29F8D28E44AA700EADB66 /* SceneDelegate.swift */,
 				A7B29F8F28E44AA700EADB66 /* ViewController.swift */,
 				A7B29F9128E44AA700EADB66 /* Main.storyboard */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B29F9828E44AA800EADB66 /* LaunchScreen.storyboard in Resources */,
-				A7B29FA028E44AB800EADB66 /* newView.xib in Resources */,
+				A7B29FA028E44AB800EADB66 /* ProfileView.xib in Resources */,
 				A7B29FA428E4BD2F00EADB66 /* Profile.storyboard in Resources */,
 				A7B29F9528E44AA800EADB66 /* Assets.xcassets in Resources */,
 				A7B29F9328E44AA700EADB66 /* Main.storyboard in Resources */,
@@ -153,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B29F9028E44AA700EADB66 /* ViewController.swift in Sources */,
-				A7B29FA228E44ACC00EADB66 /* newView.swift in Sources */,
+				A7B29FA228E44ACC00EADB66 /* ProfileView.swift in Sources */,
 				A7B29FA628E4BDD600EADB66 /* ProfileViewController.swift in Sources */,
 				A7B29F8C28E44AA700EADB66 /* AppDelegate.swift in Sources */,
 				A7B29F8E28E44AA700EADB66 /* SceneDelegate.swift in Sources */,
